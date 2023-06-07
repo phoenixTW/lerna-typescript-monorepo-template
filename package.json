@@ -3,12 +3,18 @@
   "private": true,
   "author": {
     "name": "Kaustav Chakraborty",
-    "url": "https://github.com/phoenixTW"
+    "url": "https://github.com/phoenixTW",
+    "email": "me@iamkaustav.com"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^6.6.2"
+    "lerna": "^6.6.2",
+    "@types/node": "^20.2.5",
+    "typescript": "^5.1.3"
+  },
+  "scripts": {
+    "lerna:tsc": "lerna run tsc"
   }
 }

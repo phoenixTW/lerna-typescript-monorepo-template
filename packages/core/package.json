@@ -1,0 +1,36 @@
+{
+  "name": "@phoenixtw/core-sample",
+  "version": "0.0.0",
+  "description": "Sample core package for demo purpose",
+  "keywords": [
+    "core",
+    "sample",
+    "lerna"
+  ],
+  "author": "Kaustav Chakraborty <me@iamkaustav.com>",
+  "homepage": "https://github.com/phoenixTW/lerna-typescript-monorepo-template",
+  "license": "MIT",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "index"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/phoenixTW/lerna-typescript-monorepo-template.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "node ./__tests__/index.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/phoenixTW/lerna-typescript-monorepo-template/issues"
+  }
+}
