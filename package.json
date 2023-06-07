@@ -1,0 +1,14 @@
+{
+  "name": "lerna-typescript-monorepo-template",
+  "private": true,
+  "author": {
+    "name": "Kaustav Chakraborty",
+    "url": "https://github.com/phoenixTW"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  }
+}
